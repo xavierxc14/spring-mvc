@@ -4,6 +4,6 @@
 <jsp:include page="header.jsp"/>
 
 <body>
-<h1>You are logged in with nickname: ${user.nickName}!</h1>
+<h1>Welcome!</h1>
 </body>
 </html>

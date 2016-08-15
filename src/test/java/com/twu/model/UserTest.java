@@ -8,6 +8,6 @@ public class UserTest {
 
     @Test
     public void shouldPass() throws Exception {
-        assertTrue(true);
+        assertTrue(false);
     }
 }

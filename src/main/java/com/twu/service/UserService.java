@@ -11,6 +11,8 @@ public class UserService {
 
     private List<User> allUsers;
 
+    private User user;
+
     public UserService() {
         this.allUsers = new ArrayList<>();
     }
@@ -26,5 +28,13 @@ public class UserService {
 
     public List<User> getAllUsers() {
         return allUsers;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

@@ -27,9 +27,7 @@ public class LoginController {
 
     @RequestMapping(value = "validateUser", method = RequestMethod.POST)
     public String validateUser(@ModelAttribute("user") User user, Model model) {
-        System.out.println(user.getNickName());
-        System.out.println(user.getPassword());
-        userService.getAllUsers().add(user);
+        userService.setUser(user);
         return "redirect:/home";
     }
 }

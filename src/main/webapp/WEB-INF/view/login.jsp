@@ -1,9 +1,9 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE HTML>
 <html>
-<head>
-    <title>Login</title>
-</head>
+
+<jsp:include page="header.jsp"/>
+
 <body>
 <h1>Login</h1>
 <form:form action="validateUser" method="post" modelAttribute="user">
