@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Sample Application</title>
+    <title>Happy Traveler</title>
 </head>
 <body>
-<h1>Hello, ${name}!</h1>
+<jsp:include page="header.jsp"/>
+<h1>Welcome!</h1>
 </body>
 </html>
